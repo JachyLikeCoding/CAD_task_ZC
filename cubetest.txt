@@ -1,0 +1,9 @@
+SolidNum 1
+#solid 1
+v 4
+0 0 0 
+4 0 0
+4 4 0
+0 4 0
+sweep 2 0 0 1
+end

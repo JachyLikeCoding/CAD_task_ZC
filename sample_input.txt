@@ -1,0 +1,20 @@
+#This is the sample input file for reference. Lines beginning with "#" represent comments. Please don't have a blank line. The input file ends with "end".
+#Step 1 ----- Input your solid count and begin with head "SolidNum".
+SolidNum 2	
+#Step 2 ----- Input the number of points of outer loop of sweep face and begin with head "v". Then input their coordinates.
+v 4
+0 0 0
+4 0 0
+4 4 0
+0 4 0
+#Step 3 ----- Input the number of points of inner loops of sweep face and begin with head "inloop". Then input the number of points of every inner loop beginning with head "inv" and input their coordinates.
+inloop 1
+inv 4
+1 1 0
+3 1 0
+3 3 0
+3 1 0
+#Step 4 ----- Input the sweep distance and direction and begin with head "sweep". 
+sweep 2 0 0 1
+end
+#For developers, the format of the input file can be changed by modifying the file "SolidModeling.cpp".

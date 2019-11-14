@@ -1,0 +1,69 @@
+----------------------- Solid 0 -----------------------
+Vertexes count: 8
+ID	Coord
+0.	( 0, 0, 0 )
+1.	( 4, 0, 0 )
+2.	( 4, 4, 0 )
+3.	( 0, 4, 0 )
+4.	( 0, 4, 2 )
+5.	( 0, 0, 2 )
+6.	( 4, 0, 2 )
+7.	( 4, 4, 2 )
+Edges count: 12
+0.	0 ！ 1
+1.	1 ！ 2
+2.	2 ！ 3
+3.	3 ！ 0
+4.	3 ！ 4
+5.	0 ！ 5
+6.	4 ！ 5
+7.	1 ！ 6
+8.	5 ！ 6
+9.	2 ！ 7
+10.	6 ！ 7
+11.	7 ！ 4
+Faces count: 6
+0.	 outer loop ID : 0
+1.	 outer loop ID : 1
+2.	 outer loop ID : 2
+3.	 outer loop ID : 3
+4.	 outer loop ID : 4
+5.	 outer loop ID : 5
+Loops count: 6
+0.	4 Points : 7->4->5->6
+1.	4 Points : 0->3->2->1
+2.	4 Points : 5->4->3->0
+3.	4 Points : 6->5->0->1
+4.	4 Points : 7->6->1->2
+5.	4 Points : 4->7->2->3
+----------------------- Solid 1 -----------------------
+Vertexes count: 6
+ID	Coord
+0.	( 5, 5, 0 )
+1.	( 5, 6, 0 )
+2.	( 6, 6, 0 )
+3.	( 6, 9, 3 )
+4.	( 5, 8, 3 )
+5.	( 5, 9, 3 )
+Edges count: 9
+0.	0 ！ 1
+1.	1 ！ 2
+2.	2 ！ 0
+3.	2 ！ 3
+4.	0 ！ 4
+5.	3 ！ 4
+6.	1 ！ 5
+7.	4 ！ 5
+8.	5 ！ 3
+Faces count: 5
+0.	 outer loop ID : 0
+1.	 outer loop ID : 1
+2.	 outer loop ID : 2
+3.	 outer loop ID : 3
+4.	 outer loop ID : 4
+Loops count: 5
+0.	3 Points : 5->3->4
+1.	3 Points : 0->2->1
+2.	4 Points : 4->3->2->0
+3.	4 Points : 5->4->0->1
+4.	4 Points : 3->5->1->2
